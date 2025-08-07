@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 10vh;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    color: aliceblue;
+    font-size: 3em;
+    opacity: 80%;
+    text-shadow: 5px 5px 15px aliceblue;
+}
+
+main {
+    background-color: #666666;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telaLogin {
+    width: 380px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    padding: 50px;
+}
+
+.telaLogin input {
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.telaLogin button {
+    margin-top: 20px;
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    .telaLogin {
+        width: 300px;
+        height: 200px;
+        padding: 10px;
+        position: absolute;
+        top: 175px;
+    }
+}
